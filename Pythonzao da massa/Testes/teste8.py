@@ -1,0 +1,5 @@
+nome = str(input('nome: '))
+spc = nome.count(' ')
+nome = nome.split()
+print(nome[0])
+print(nome[spc])
